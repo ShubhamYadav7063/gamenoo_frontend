@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+body {
+  font-family: "Rubik", sans-serif;
+  @apply min-h-screen bg-background;
+}
+
+.sudoku-cell {
+  @apply flex items-center justify-center w-full h-16 text-lg font-medium transition-colors; /* Light cell border */
+}
+
+.sudoku-cell.prefilled {
+  @apply font-bold text-gray-700 bg-gray-100;
+}
+
+.sudoku-cell.selected {
+  @apply bg-blue-100;
+}
+
+.word-grid-cell {
+  @apply flex items-center justify-center w-full h-20 text-lg font-medium transition-colors border border-gray-300;
+}
+
+.word-grid-cell.selected {
+  @apply bg-green-200;
+}
+
+.word-path {
+  @apply bg-green-100;
+}
+
+.leaderboard-item {
+  @apply p-2 border-b border-gray-200;
+}
