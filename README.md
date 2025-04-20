@@ -1,12 +1,66 @@
-# React + Vite
+# 🎮 Multiplayer Puzzle Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.2+-61DAFB?logo=react)](https://reactjs.org/)
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7+-010101?logo=socket.io)](https://socket.io/)
 
-Currently, two official plugins are available:
+A real-time multiplayer puzzle game platform with Sudoku and Word Grid (Boggle-style) games, complete with chat functionality and live leaderboards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Game Screenshot](https://via.placeholder.com/800x400?text=Game+Screenshot+Showcasing+Sudoku+and+Word+Grid)  
+*Replace with actual game screenshot*
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎲 Game Modes
+- **Collaborative Sudoku**: Solve puzzles together in real-time
+- **Competitive Word Grid**: Race to find the most words Boggle-style
+
+### 🌐 Multiplayer Features
+- Real-time synchronized gameplay
+- Player presence indicators
+- Color-coded player contributions
+- Live leaderboard tracking
+
+### 💬 Social Features
+- In-game chat
+- Room-based gameplay
+- Active rooms listing
+
+## 🛠️ Tech Stack
+
+**Frontend**:
+- React 18
+- Tailwind CSS
+- Socket.IO Client
+- Vite
+
+**Backend**:
+- Node.js
+- Express
+- Socket.IO
+
+**Game Logic**:
+- Custom Sudoku generator with backtracking
+- Boggle-style word grid generator
+- Dictionary API integration with local caching
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js v18+
+- npm v9+ or yarn
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/multiplayer-puzzle-game.git
+cd multiplayer-puzzle-game
+
+# Install dependencies
+npm install
+
+# Set up environment
+cp .env.example .env
+
+# Start development server
+npm run dev```
