@@ -1,6 +1,5 @@
 # 🎮 Multiplayer Puzzle Game
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.2+-61DAFB?logo=react)](https://reactjs.org/)
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7+-010101?logo=socket.io)](https://socket.io/)
 
