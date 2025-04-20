@@ -5,7 +5,9 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7+-010101?logo=socket.io)](https://socket.io/)
 
 A real-time multiplayer puzzle game platform with Sudoku and Word Grid (Boggle-style) games, complete with chat functionality and live leaderboards.
-link:- https://gamenoo-frontend.vercel.app/
+
+
+Checkout:- https://gamenoo-frontend.vercel.app/
 
 ## ✨ Features
 
